@@ -1,0 +1,1075 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "branches",
+                        "patterns": [
+
+                                "How many branches are there in your college",
+                                "what are branches in Navkis college of engineering college?",
+                                "what are the name of the branches available in college",
+                                "name of the branches in college"
+                           
+                        ],
+                        "responses": [
+                                "Basically, we have 7 branches in Navkis college of engineering"
+                
+
+                   	],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me Navkis college of engineering College Chatbot.",
+                                "I'm College Enquiry Chatbot",
+                                "I'm Navkis college of engineering College Chatbot "
+			],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open 8:30am-4pm Monday-Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+
+                                "more info",
+                                "contact info",
+                                "how to contact college",
+                                "college telephone number",
+                                "college number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "College phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at 080-28427162 / 080-28427164"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in Navkis college of engineering",
+                                "what are the courses offered in your college?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in Navkis college of engineering",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at Navkis college of engineering?",
+                                "branches available at Navkis college of engineering?",
+                                "what are the courses in Navkis college of engineering?",
+                                "what are branches in Navkis college of engineering?",
+                                "what are courses in Navkis college of engineering?",
+                                "branches available in Navkis college of engineering?",
+                                "can you tell me the courses available in Navkis college of engineering?",
+                                "can you tell me the branches available in Navkis college of engineering?",
+                                "Computer engineering?",
+                                "Mechanical engineering?",
+                                "Electrical engineering?",
+                                "Computer",
+                                "Mechanical",
+                                "Electrical",
+                                "Mech"
+                        ],
+                        "responses": [
+                                "Bachelors Programmes provided are Artificial Intelligence and Machine Learning, Computer Science and Design, Computer and Communication Engineering, Computer Science & Engineering (IoT and Cybersecurity including Blockchain Technology), Computer Science And Engineering, Electronics And Communication Engineering,Mechanical Engineering and Applied Sciences.For more details visit<a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "college fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees",
+                                "fees fe",
+                                "fees se",
+                                "fees te",
+                                "fees be",
+                                "fees me",
+                                "fees mech",
+                                "fees electrical",
+                                "fees computer",
+                                "fees mechanical",
+                                "fees open fe",
+                                "fees open se",
+                                "fees open te",
+                                "fees open be"
+                        ],
+                        "responses": [
+                                "For Fee details visit <a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "how can I reach college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "For any queries about admission, academics, facilities, student support,department, faculties, vision mission, research related areas, visit our official website: <a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/\"> here</a>"
+																			
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does college provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from college",
+                                "hostel college distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between college and hostel",
+                                "distance between hostel and college"
+                        ],
+                        "responses": [
+				"Navkis college of engineering provides safe and affordable hostel facilities for boys and girls. For more details visit <a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/\"> here</a>"
+                        													
+				   ],
+                        "context_set": ""
+                },
+                 {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "infrastructure",
+                                "building",
+                                "number of floors in bulding",
+                                "college infrastructure",
+                                "departments and labs",
+                                "departments",
+                                "labs",
+                                "canteen",
+                                "infrastructure PHCET",
+                                "tell me about infrastructure",
+                                "what about infrastructure"
+                        ],
+                        "responses": [
+                                " For campus tour please visit the following link.<a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/\"> here</a>",
+                                "For infrastructure details visit <a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "list of events organised in college",
+                                "list of events conducted in college",
+                                "What events are conducted in college",
+                                "Are there any event held at college",
+                                "Events?",
+                                "functions",
+                                "what are the events",
+                                "tell me about events",
+                                "what about events"
+                        ],
+                        "responses": [
+                                "Our college organizes various events during academics.Many Events are useful for technical skils and placements activities.There are many events which are held by deparments.<a target=\"_blank\"  here</a>",
+                                "Our Navkis college of engineering organizes FESTIVAL every year. Visit <a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/ananya.html\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "document",
+                        "patterns": [
+                                "document to bring",
+                                "documents needed for admision",
+                                "documents needed at the time of admission",
+                                "documents needed during admission",
+                                "documents required for admision",
+                                "documents required at the time of admission",
+                                "documents required during admission",
+                                "What document are required for admission",
+                                "Which document to bring for admission",
+                                "documents",
+                                "what documents do i need",
+                                "what documents do I need for admission",
+                                "documents needed"
+                        ],
+                        "responses": [
+                                "To know more about documents required visit<a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/\"> here</a>"
+                        ],						
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [
+                                "placement for student",
+                                "what is the student placement",
+                                "placement",
+                                "timetable",
+                                "what are guides placement",
+                                "placement",
+                                "What is next lecture"
+                        ],
+                        "responses": [
+                                "placement details are available in the link below. <a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/about_placement.html\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the college have library facility",
+                                "college library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "Navkis college of engineering has a huge and spacious library on the second floor in new block. For more details visit <a target=\"_blank\" href=\"https://Navkis college of engineering.ac.in\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in college",
+                                "Does college have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria"
+                        ],
+                        "responses": [
+                                "Navkis college of engineering has canteen with variety of food available. <a target=\"_blank\" href=\"https://Navkis college of engineering.ac.in/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "menu",
+                        "patterns": [
+                                "food menu",
+                                "food in canteen",
+                                "Whats there on menu",
+                                "what is available in college canteen",
+                                "what foods can we get in college canteen"
+                        ],
+                        "responses": [
+                                "The college canteen serves Tea, Coffee, Misal Pav, Bread Pakoda, Thaali, Samosa, Dal Rice, Fried rice and many more dishes."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [
+                                "What is college placement",
+                                "Which companies visit in college",
+                                "What is average package",
+                                "companies visit",
+                                "package",
+                                "placement",
+                                "recruitment",
+                                "companies"
+                        ],
+                        "responses": [
+                                "Various companies are coming to recruite our students and offer maximum packages.MAIN RECRUITERS are TCS,MuSigma,ITC Infotech, Zucitech software solutions, Nandi Toyato, Tech Mahindra, HCL, Razorpay, CSG, Huawei, Diagonal Ai, Cognizant, Sonata Software, KGPCo, Infosys, Dell, Bosch, TCS, Mindtree, Capgemini, SAP Labs etc.For more information visit <a target=\"_blank\" href=\"https://phcet.ac.in/students/placements/our-recruiters/\">here</a>",
+                                "Our college oragnise various activities related to placements.For latest update visit <a target=\"_blank\" href=\"https://Navkis college of engineering.ac.in/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "AveragePackage",
+                        "patterns": [
+                                "What is the average package?",
+                                "Average package"
+                        ],
+                        "responses": [
+                                "The average package at Navkis college of engineering is 3 LPA"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "HighestPackage",
+                        "patterns": [
+                                "What is the highest package?",
+                                "Hightest package"
+                        ],
+                        "responses": [
+                                "The average package at Navkis college of engineering is 12 LPA"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "TPO",
+                        "patterns": [
+                                "Who is TPO",
+                                "Where is college TPO",
+                                "college TPO",
+                                "name of college TPO",
+                                "placement officer"
+                        ],
+                        "responses": [
+                                "Dr. HARISH.R(HOD and TPO) ,Prof. RAJESH G L(CORPORATE RELATIONS EXECUTIVE/DY. PLACEMENT OFFICER),Mrs. PREETHI K(PLACEMENT EXECUTIVE) are available on the ground floor. To know more visit <a target=\"_blank\" href=\"https://Navkis college of engineering.ac.in/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                
+                {
+                        "tag": "mechhod",
+                        "patterns": [
+                                "Who is Mechanical HOD",
+                                "Where is  mechanical HOD",
+                                "mechanical hod",
+                                "name of mechanical hod"
+                        ],
+                        "responses": [
+                                "Dr. Girish T.R is Mechanical HOD who is available in mechanical HOD cabin."
+                        ],
+                        "context_set": ""
+                },
+                {
+                       "tag": "comphod",
+                       "patterns": [
+                               "Who is Computer HOD",
+                               "Where is  Computer HOD",
+                               "computer hod",
+                               "name of computer hod"
+                       ],
+                       "responses": [
+                               "Dr. REKHA.B.VENKATAPUR is Computer HOD who is available on ground floor of old building. To know more visit <a target=\"_blank\" href=\"https://https://www.Navkis college of engineering.ac.in/cse_dept#faculty\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                       "tag": "compand comminhod",
+                       "patterns": [
+                               "Who is Computer and Communication Engineering HOD",
+                               "Where is Computer and Communication Engineering HOD",
+                               "Computer and Communication Engineering hod",
+                               "name of Computer and Communication Engineering hod"
+                       ],
+                       "responses": [
+                               "Dr.Chanda V Reddy is Computer and Communication Engineering HOD who is available on 3rd floor. To know more visit <a target=\"_blank\" href=\"https://https://www.Navkis college of engineering.ac.in/cce_dept#faculty\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                       "tag": "artihod",
+                       "patterns": [
+                               "Who is Artificial Intelligence and Machine Learning HOD",
+                               "Where is Artificial Intelligence and Machine Learning HOD",
+                               "Artificial Intelligence and Machine Learning hod",
+                               "name of Artificial Intelligence and Machine Learning hod"
+                       ],
+                       "responses": [
+                               "Dr. VIJAYALAXMI MEKALI is Artificial Intelligence and Machine Learning HOD who is available on 5th floor. To know more visit <a target=\"_blank\" href=\"https://https://www.Navkis college of engineering.ac.in/aiml_dept\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                      "tag": "compand designhod",
+                      "patterns": [
+                              "Who is Computer Science and Design HOD",
+                              "Where is Computer Science and Design HOD",
+                              "Computer Science and Design hod",
+                              "name of Computer Science and Design hod"
+                      ],
+                      "responses": [
+                              "Dr. DEEPA .S.R is Computer Science and Design HOD who is available on 1st floor. To know more visit <a target=\"_blank\" href=\"https://https://www.Navkis college of engineering.ac.in/csd_dept#faculty\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                      
+                        "tag": "principal",
+                        "patterns": [
+                                "what is the name of principal",
+                                "whatv is the principal name",
+                                "principal name",
+                                "Who is college principal",
+                                "Where is principal's office",
+                                "principal",
+                                "name of principal"
+                        ],
+                        "responses": [
+                                "DR. DILIP KUMAR K is college principal who is available on ground floor of new building. To know more visit <a target=\"_blank\" href=\"https://https://www.Navkis college of engineering.ac.in/principal.html\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "admission",
+                        "patterns": [
+                                "what is the process of admission",
+                                "what is the admission process",
+                                "How to take admission in your college",
+                                "What is the process for admission",
+                                "admission",
+                                "admission process",
+                                "eligibility for admission",
+                                "eligibility",
+                                "what is the eligibility",
+                                "eligibility criteria",
+                                "eligibility criteria for enigineering",
+                                "admission engineering"
+                        ],
+                        "responses": [
+                                "Application can also be submitted online through the VTU Unversity. Refer <a href=https://Navkis college of engineering.ac.in>website</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities college provide",
+                                "College facility",
+                                "What are college facilities",
+                                "facilities",
+                                "facilities provided"
+                        ],
+                        "responses": [
+                                "Navkis college of engineering provides Labs with internet connection, smart classroom, Auditorium, library,canteen. Labs are equipped with modern technologies. Also there is bus facility for the students and faculty"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "college intake",
+                        "patterns": [
+                                "max number of students",
+                                "number of seats per branch",
+                                "number of seats in each branch",
+                                "maximum number of seats",
+                                "maximum students intake",
+                                "What is college intake",
+                                "how many stundent are taken in each branch",
+                                "seat allotment",
+                                "seats"
+                        ],
+                        "responses": [
+                                "For Computer Science and Electronics And Communication Engineering the intake is 180.For Mechanical Engineering, Artificial intelligence and machine learning and computer science and design 60 per batch. Mechanical Department has 180 students intake. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "college dress code",
+                                "college dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does college have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "The uniforms should be worn while coming to lab and all exams including internals."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding college",
+                                "You can ask me questions regarding college, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                        "patterns":[
+                                "ragging",
+                                "is ragging practice active in college",
+                                "does college have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents"
+                                
+                        ],
+                        "responses": [
+                                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+                        ]
+
+                },
+                {
+                        "tag":"hod",
+                        "patterns":[
+                                "hod",
+                                "hod name",
+                                "who is the hod"
+                        ],
+                        "responses":[
+                                "HODs differ for each branch, please be more specific like: (HOD CSE)"
+                        ]
+                },
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                "dtc bus route",
+                                "mode of transportation",
+                                "how to get to college",
+                                "buses for college",
+                                "college buses",
+                                "bus routes",
+                                "list of buses for travelling"    
+                        ],
+                        "responses":[
+                                "Navkis college of engineering provides bus facility to students through various places like ISKON, Raj Kumar Samadhi, PES Nice Road, Katriguppe, Girinagar, Hosakerehalli, Gottigere, K.R.Puram, etc."
+                        ]
+                },
+                {
+                        "tag":"scholarship",
+                        "patterns":[
+                                "scholarship",
+                                "Is scholarship available",
+                                "scholarship engineering",
+                                "scholarship fe",
+                                "scholarship se",
+                                "scholarship te",
+                                "scholarship be",
+                                "available scholarships",
+                                "scholarship for computer engineering",
+                                "scholarship for mechanical engineering",
+                                "scholarship for electrical engineering",
+                                "list of scholarship",
+                                "mechanical scholarship",
+                                "electrical scholarship",
+                                "automobile scholarship",
+                                "first year scholarship",
+                                "second year scholarship",																				
+                                "third year scholarship",
+                                "fourth year scholarship"
+                        ],
+                        "responses":[
+                                "Many government scholarships are supported by Navkis college of engineering. For details and updates visit <a target=\"_blank\" href=\"https://www.Navkis college of engineering.ac.in/\">here</a>"
+                        ]
+                },
+                {
+                        "tag":"faculty",
+                        "patterns":[
+                                "faculty",
+                                "faculty details",
+                                "faculty fe",
+                                "faculty se",
+                                "faculty te",
+                                "faculty be",
+                                "computer faculty",
+                                "mechanical faculty",
+                                "electrical faculty",
+                                "engineering faculty",
+                                "list of faculty",
+                                "first year faculty",
+                                "second year faculty",
+                                "third year faculty",
+                                "fourth year  faculty",
+                                "give faculty details",
+                                "tell me about the faculty",
+                                "how is the faculty",
+                                "staff",
+                                "please give information about faculty",
+                                "faculty information",
+                                "faculty?"
+                        ],
+                        "responses":[
+                                "Navkis college of engineering has a highly qualified and experienced faculty."
+                        ]
+                },
+                {
+                        "tag":"sports",
+                        "patterns":[
+                                "sports and games",
+                                "give sports details",
+                                "sports infrastructure",
+                                "sports facilities",
+                                "Navkis college of engineering sports facilities",
+                                "information about sports",
+                                "please provide sports and games information"
+                        ],
+                        "responses":[
+                                "Navkis college of engineering encourages all-round development of students and hence provides sports facilities in the campus."
+                        ]
+                },
+                {
+                        "tag":"fest",
+                        "patterns":[
+                                "fests",
+                                "college fest",
+                                "Ananya",
+                                "tech Anaya",
+                                "Navkis college of engineering fests",
+                                "information fest",
+                                "please provide fests information",
+                                "Ananya information",
+                                "tech Ananya information",
+                                "tell me about college fests",
+                                "tell me about tech Ananya",
+                                "tell me about Ananya",
+                                "information Ananya",
+                                "please provide Ananya information",
+                                "please provide tech Ananya information",
+                                "tech Ananya details",
+                                "Ananya details",
+                                "give me Ananya details",
+                                "give me tech Ananya details",
+                                "give me fests details",
+                                "fests?"
+                        ],
+                        "responses":[
+                                "Navkis college of engineering encourages all-round development of students and hence organizes vibrant fests like Ananya in the campus."
+                        ]
+                },
+                {
+                        "tag":"cseyear",
+                        "patterns":[
+                                "computer science established in the year?",
+                                "cse established year",
+                                "established year",
+                                "when did cse branch started?"      
+                        ],
+                        "responses":[
+                                "The Department of Computer Science and Engineering is established in the year 1999."
+                        ]
+                },
+                {
+                        "tag":"csintake",
+                        "patterns":[
+                                "computer science intake",
+                                "cse intake?",
+                                "intake of cse branch?",
+                                "what is the intake of computer science branch?",
+                                "number of intake in cse?"       
+                        ],
+                        "responses":[
+                                "The intake of computer science branch  is 180."
+                        ]
+                },
+                {
+                        "tag":"csehod",
+                        "patterns":[
+                                "who is the hod of computer science",
+                                "head of the department in cse",
+                                "cse hod",
+                                "name of the cse hod ",
+                                "computer science hod name"       
+                        ],
+                        "responses":[
+                                "Dr. Rekha B Venkatapur, Professor & Head, B.E, M.Tech, Ph.D. "
+                        ]
+                },
+                {
+                    "tag":"csefaculty",
+                    "patterns":[
+                            "number of faculties in cse",
+                            "total number of teachers in cse",
+                            "camputer science number of faculties",
+                            "total number of teachers in cse ",
+                            "number of faculties in cse"       
+                    ],
+                    "responses":[
+                            "There are 27 number of faculties in computer science branch. "
+                    ]
+                },
+                {
+                    "tag":"cseinfra",
+                    "patterns":[
+                            "infrastructure of cse branch ",
+                            "facilities provided in cse branch",
+                            "computer science department infrastructure",
+                            "labs in cse ",
+                            "laboratory facilities in computer science branch"       
+                    ],
+                    "responses":[
+                            "Computer Science and Engineering Department has fully furnished State of Art laboratories. All laboratories are well-equipped to run the academic laboratories courses. Highly experienced Technical staff are available in all the laboratories to assist the students to carry out their lab sessions. "
+                    ]
+                },
+                {
+                    "tag":"aimlyear",
+                    "patterns":[
+                            "when did aiml started in this college",
+                            "aiml established year",
+                            "artificial intelligence and machine learning started in the year?",
+                            "aiml started in the year?",
+                            "artificial intellgence and machine learning established in the year?"       
+                    ],
+                    "responses":[
+                            "aiml branch established in the year 2020."
+                    ]
+                },
+                {
+                    "tag":"aimlintake",
+                    "patterns":[
+                        "aiml intake",
+                        "artificial intelligence and machine learning intake?",
+                        "intake of aiml branch?",
+                        "what is the intake of artificial intelligence and machine learning branch?",
+                        "number of intake in aiml?"        
+                    ],
+                    "responses":[
+                            "Artificial Intelligence and Machine Learning (AIML) intake is 60 students and a lateral entry of 10% from 2nd year."
+                    ]
+                },
+                {
+                    "tag":"aimlhod",
+                    "patterns":[
+                            "who is the hod of aiml",
+                            "head of the department in aiml",
+                            "artificial intelligence and machine learning hod",
+                            "name of the aiml hod ",
+                            "artificial intelligence and machine learning hod name"       
+                    ],
+                    "responses":[
+                            "Dr. Vijayalaxmi Mekali, Associate Professor & Head, B.E, M.Tech, Ph.D. "
+                    ]
+            },
+            {
+                "tag":"aimlfaculty",
+                "patterns":[
+                        "number of faculties in aiml",
+                        "total number of teachers in aiml",
+                        "artificial intelligence and machine learning number of faculties",
+                        "total number of teachers in aiml ",
+                        "number of faculties in artificial intelligence and machine learning"       
+                ],
+                "responses":[
+                        "There are 7 number of faculties in AIML Department. "
+                ]
+            },
+            {
+                "tag":"aimlinfra",
+                "patterns":[
+                        "infrastructure of aiml branch ",
+                        "facilities provided in aiml branch",
+                        "artificial intelligence and machine learning department infrastructure",
+                        "labs in aiml ",
+                        "laboratory facilities in artificial intelligence and machine learning"       
+                ],
+                "responses":[
+                        "Artificial Intelligence and Machine Learning Department has fully furnished State of Art laboratories.All laboratories are well-equipped to run the academic laboratories courses. Highly experienced Technical staff are available in all the laboratories to assist the students to carry out their lab sessions. "
+                ]
+            },
+            {
+                "tag":"mecintake",
+                "patterns":[
+                    "mechanical branch intake",
+                    "mechanics department intake?",
+                    "intake of mech branch?",
+                    "what is the intake of mechanical branch?",
+                    "number of intake in mechanical?"        
+                ],
+                "responses":[
+                        "Mechanical department  intake is 60 students and a lateral entry of 20% from 2nd year."
+                ]
+            },
+            {
+                "tag":"mechod",
+                "patterns":[
+                        "who is the hod of mechanical branch",
+                        "head of the department in mechanics",
+                        "mech hod",
+                        "name of the mechanical hod ",
+                        "mechanical department hod name"       
+                ],
+                "responses":[
+                        "Dr. Girish T. R, Associate Professor & Head, M.Tech. Ph.D"
+                ]
+             },
+             {
+                "tag":"mecfaculty",
+                "patterns":[
+                        "number of faculties in mechanical",
+                        "total number of teachers in mech",
+                        "mechanical department number of faculties",
+                        "total number of teachers in mechanics ",
+                        "number of faculties in mechanical branch"       
+                ],
+                "responses":[
+                        "There are 13 number of faculties in mechanical Department. "
+                ]
+            },
+            {
+                "tag":"mecinfra",
+                "patterns":[
+                        "infrastructure of mechanical branch ",
+                        "facilities provided in mech branch",
+                        "mechanical department infrastructure",
+                        "labs in mechanical ",
+                        "laboratory facilities in mechanical department"       
+                ],
+                "responses":[
+                        "Thirteen laboratory courses have been listed in the curriculum for the under graduate program in the department. Every laboratory has adequate facility in terms of necessary instruments / equipments for conducting experiments in the department as per the course requirement. "
+                ]
+            },
+            {
+                "tag":"eceyear",
+                "patterns":[
+                        "Electronics And Communication Engineering established in the year?",
+                        "ece established year",
+                        "Electronics And Communication Engineering established year",
+                        "when did ece branch started?"      
+                ],
+                "responses":[
+                        "The Department of Electronics And Communication Engineering is established in the year 1999."
+                ]
+        },
+
+        {
+                "tag":"ecentake",
+                "patterns":[
+                        " Electronics And Communication Engineering intake",
+                        "ece intake?",
+                        "intake of ece branch?",
+                        "what is the intake of  Electronics And Communication Engineering?",
+                        "number of intake in ece?"       
+                ],
+                "responses":[
+                        "The intake of  Electronics And Communication Engineering  is 180."
+                ]
+        },
+
+        {
+                "tag":"ecefaculty",
+                "patterns":[
+                        "number of faculties in ece",
+                        "total number of teachers in ece",
+                        "Electronics And Communication Engineering number of faculties",
+                        "total number of teachers in ece ",
+                        "number of faculties in ece"       
+                ],
+                "responses":[
+                        "There are 27 number of faculties and0 12 supporting faculties in Electronics And Communication Engineering."
+                ]
+            },
+
+            {
+                "tag":"cseinfra",
+                "patterns":[
+                        "infrastructure of ece branch ",
+                        "facilities provided in ece branch",
+                        "Electronics And Communication Engineering department infrastructure",
+                        "labs in ece ",
+                        "laboratory facilities in Electronics And Communication Engineering branch"       
+                ],
+                "responses":[
+                        "Electronics And Communication and Engineering Department has fully furnished State of Art laboratories. All laboratories are well-equipped to run the academic laboratories courses. Highly experienced Technical staff are available in all the laboratories to assist the students to carry out their lab sessions. "
+                ]
+            },
+
+            {
+                "tag":"about",
+                "patterns":[
+                        "How is Navkis college of engineering?",
+                        "How does Navkis college of engineering support student learning and academic success",
+                        "Reputation of Navkis college of engineering?",
+                        "Can we choose Navkis college of engineering for engineering?",
+                        "How is the student community at Navkis college of engineering?",
+                        "How does Navkis college of engineering support student learning and academic success?",
+                        "Is Navkis college of engineering NBA accredited?",
+                        "Is Navkis college of engineering NAAC accredited?"
+                ],
+                "responses":[
+                        "The academic excellence at K. S. Institute of Technology is reflected in its students exemplary record in placements in the corporate and engineering sectors. The department of Training & Placement is the backbone of any institute. Navkis college of engineering has consistently maintained an excellent recruitment record. Navkis college of engineering is accredited by NAAC with a grade B++, National Board of Accreditation (NBA), IEI, and ARIIA, and recognised by the All India Council for Technical Education (AICTE).  college equipped with good infrastructure and has well-experienced qualified lecturers."
+                ]
+            },
+
+            {
+                "tag":"CETranking",
+                "patterns":[
+                        "What is CET ranking to join Navkis college of engineering?",
+                        "What is the cet cutoff ranking to join Navkis college of engineering?",
+                        "Minimum CET rank",
+                        "CET ranking for each department?"
+                ],
+                "responses":[
+                        "CET ranking for Computer Science and Engineering is 24392, Artificial Intelligence & Machine Learning is 28910, Computer Science and Design is 34160, IOT & Cyber Security Including Blockchain is 39511, Electronics & Communication Engineering is 40855, Computer and Communication Engineering is 43911, Mechanical Engineering is 200369 and for  Internet of Things is 38009."
+                ]
+            },
+            {
+                "tag":"Comedk",
+                "patterns":[
+                        "What is Comedk ranking to join Navkis college of engineering?",
+                        "What is the comedk cutoff ranking to join Navkis college of engineering?",
+                        "Minimum comedk rank",
+                        "comedk ranking for each department?"
+                ],
+                "responses":[
+                        "The Comedk cutoff 2023 for the KS Insitute of Technology BE program ranged from 31223 - 53681 which varies every year"
+                ]
+            }
+
+
+
+
+
+            
+                
+                
+        ]
+}
