@@ -51,7 +51,7 @@ Chatbot returns the mapped response from Intents.json.
 
 🔧 Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/YourUsername/YourRepoName.git
+git clone git@github.com:DhanuDevu/Chatbot-with-Deep-Learning-and-Flask.git
 cd YourRepoName/chatbot
 
 2️⃣ Install Dependencies
