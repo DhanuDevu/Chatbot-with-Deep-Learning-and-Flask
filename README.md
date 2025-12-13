@@ -55,7 +55,7 @@ git clone git@github.com:DhanuDevu/Chatbot-with-Deep-Learning-and-Flask.git
 cd YourRepoName/chatbot
 
 2️⃣ Install Dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt   
 
 
 (If requirements file not present, I can generate one.)
