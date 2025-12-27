@@ -1,8 +1,8 @@
-🧠 AI Chatbot Using Deep Learning & Flask
+# 🧠 AI Chatbot Using Deep Learning & Flask
 
 This project is a machine-learning based chatbot that uses Natural Language Processing (NLP) and Neural Networks to understand user queries and respond with the correct intent. A Flask backend serves the trained TensorFlow model and renders a simple web UI for chatting.
 
-🚀 Features
+## 🚀 Features
 
 ✔️ Deep learning model trained using TensorFlow/Keras
 
@@ -18,7 +18,7 @@ This project is a machine-learning based chatbot that uses Natural Language Proc
 
 ✔️ Fully customizable intents and training dataset
 
-📂 Project Structure
+## 📂 Project Structure
 chatbot/
 │── app.py                 # Flask application
 │── chatbot_train.py       # Model training script
@@ -30,14 +30,15 @@ chatbot/
 │── templates/
 │      └── index.html      # Chat UI
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Component	Technology
 Backend	Python, Flask
 ML Model	TensorFlow / Keras
 NLP	NLTK / Tokenization / BoW
 Database	SQLite
 Frontend	HTML, CSS, JavaScript
-🧩 How It Works
+
+## 🧩 How It Works
 
 User enters a message in the UI.
 
@@ -49,7 +50,7 @@ Model predicts the intent label.
 
 Chatbot returns the mapped response from Intents.json.
 
-🔧 Installation & Setup
+## 🔧 Installation & Setup
 1️⃣ Clone the Repository
 git clone git@github.com:DhanuDevu/Chatbot-with-Deep-Learning-and-Flask.git
 cd YourRepoName/chatbot
