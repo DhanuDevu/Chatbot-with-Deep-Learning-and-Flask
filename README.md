@@ -2,7 +2,7 @@
 
 This project is a machine-learning based chatbot that uses Natural Language Processing (NLP) and Neural Networks to understand user queries and respond with the correct intent. A Flask backend serves the trained TensorFlow model and renders a simple web UI for chatting.  
 
-## 🚀 Features    
+## 🚀 Features      
 
 ✔️ Deep learning model trained using TensorFlow/Keras
     
