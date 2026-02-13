@@ -7,7 +7,7 @@ This project is a machine-learning based chatbot that uses Natural Language Proc
 ✔️ Deep learning model trained using TensorFlow/Keras
     
 ✔️ Intent-based responses using Intents.json  
- 
+  
 ✔️ NLP preprocessing (tokenizing, stemming, bag-of-words)
 
 ✔️ SQLite database (database.db) for storing chat logs
