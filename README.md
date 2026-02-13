@@ -10,7 +10,7 @@ This project is a machine-learning based chatbot that uses Natural Language Proc
   
 ✔️ NLP preprocessing (tokenizing, stemming, bag-of-words)
 
-✔️ SQLite database (database.db) for storing chat logs
+✔️ SQLite database (database.db) for storing chat logs 
 
 ✔️ Flask API to handle predictions
 
